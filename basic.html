@@ -26,6 +26,20 @@
         button:hover, button:active {
             background-color: darkred;
         }
+
+        td, th {
+            border:2px solid black;
+            background-color: white;
+            color: black;
+            width: 100px;
+            border-radius: 10px;
+            text-align: left;
+            border-color: lime;
+        }
+
+        td:hover {
+            background-color: mediumaquamarine;
+        }
     </style>
     <title>Page title</title>
 </head>
@@ -70,6 +84,38 @@
     <a href="https://www.w3schools.com/html/html_basic.asp" target="_blank">Click me to redirect<br></a>
     <a href="https://www.w3schools.com/html/html_links.asp" target="_blank"><img src="image/mogumogu.jpg" alt="W3Schools.com" style="width: 150px;height: 150px;"></a>
     <p><cite>Mogu Mogu </cite>by Chanwoo Lee</p>
+    <hr>
+    <table>
+        <caption style="background-color: white;color: black;">Practicing HTML!</caption>
+        <tr>
+        </tr>
+        <tr>
+            <th>Company</th>
+            <th>Contact</th>
+            <th>Country</th>
+        </tr>
+        <tr>
+            <td>NastyCore</td>
+            <td><a href="mailto:koroperator@gmail.com">email</a></td>
+            <td>South Korea</td>
+        </tr>
+    </table>
+    <hr>
+    <ul>
+        <li>Unordered1</li>
+        <li>Unordered2</li>
+    </ul>
+
+    <ol>
+        <li>Ordered1</li>
+        <li>Ordered2</li>
+    </ol>
+    
+    <dl>
+        <dt>NastyCore</dt>
+        <dd>(description)An innovative Discord bot</dd>
+    </dl>
+    <hr>
 
 </body>
 </html>
