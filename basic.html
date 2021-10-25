@@ -1,19 +1,75 @@
 <!DOCTYPE html>
-<html>
+<html lang="kr">
 <head>
+    <!--This is COMMENT-->
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            background-image: url(image/mogumogu.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size:cover;
+        }
+        h2 {
+            border: 2px solid lime;
+            padding: 30px;
+            margin: 50px;
+        }
+
+        button:link, button:visited, button {
+            background-color: red;
+            color: white;
+            text-align: center;
+        }
+
+        button:hover, button:active {
+            background-color: darkred;
+        }
+    </style>
     <title>Page title</title>
 </head>
 <body>
-    <h1>This is Heading1</h1>
-    <h2>This is Heading2</h2>
+    <h1 style="border: 2px solid tomato;">This is Heading1</h1>
+    <h2><a href="#weirdbutton">Click me to teleport</a></h2>
     <h3>This is Heading3</h3>
     <h6>This is Heading6</h6>
+    <hr>
+    <p>This is Paragraph1(with special color :D)</p>
+    <p style="color: black;background-color: white;text-align: center;">ooh I'm in the middle!</p>
+    <p>This is a <br> line break</p>
+    <hr>
+    <p> title="Heheh">Click me! I'm a tooltip!</p>
+    <hr>
+    <pre>
+        pre formatted 
+        hehehe  ooh
+    </pre>
+    <hr>
+    <b>This is bold</b>
+    <strong>This is strong</strong>
+    <i>This is italic</i>
+    <em>This is emphasized</em>
+    <mark>This is marked</mark>
+    <small>This is small</small>
+    <del>This is deleted</del>
+    <ins>This is inserted</ins>
+    <sub>This is subscript</sub>
+    <sup>This is superscript</sup>
+    <p style="font-size: large;"><em>YOU</em> can add <i>multiple things</i> in <mark>here!</mark></em></p>
+    <hr>
+    <p>Here is a quote from w3school:</p>
+    <blockquote cite="https://www.w3schools.com/html/html_quotation_elements.asp">I don't think I like you</blockquote>
 
-    <p>This is Paragraph1</p>
-    <p>This is a <br> line brek</p>
+    <p>My goal is to <q>learn this quote</q></p>
+    <p>Hover your mouse to learn what <abbr title="et cetera">etc</abbr> stands for</p>
+    <hr>
+    <p><a href="mailto:koroperator@gmail.com">Send Email!</a></p>
+    <button id="weirdbutton">Button that looks funny heh</button><br>
 
-    <a href="https://www.w3schools.com/html/html_basic.asp">Click me to redirect<br></a>
-    <img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142">
+    <a href="https://www.w3schools.com/html/html_basic.asp" target="_blank">Click me to redirect<br></a>
+    <a href="https://www.w3schools.com/html/html_links.asp" target="_blank"><img src="image/mogumogu.jpg" alt="W3Schools.com" style="width: 150px;height: 150px;"></a>
+    <p><cite>Mogu Mogu </cite>by Chanwoo Lee</p>
 
 </body>
 </html>
